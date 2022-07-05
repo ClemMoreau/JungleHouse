@@ -1,0 +1,40 @@
+.sort-bar {
+    background: linear-gradient(45deg, #41f099, #138D75);
+    color: #FFFFFF;
+    height: 100vh;
+    min-width: 15%;
+    flex-grow: 1;
+    margin: auto;
+    padding : 32px;
+}
+
+input {
+    background-color: white;
+}
+
+.shop-list {
+    flex-grow: 4;
+    max-height: 200px;
+    min-width: 65%;
+    display: flex;
+	flex-wrap: wrap;  
+}
+
+.cart-bar {
+    background: linear-gradient(45deg, #41f099, #138D75);
+    color: #FFFFFF;
+    height: 100vh;
+    flex-grow: 1;
+    min-width: 15%;
+}
+
+.cart-bar p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color : #FFFFFF;
+}
+
+.content {
+    display: flex;
+}

@@ -1,0 +1,30 @@
+.item {
+    border: #000000 solid 1px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 8px;
+    width: fit-content;
+    height: 250px;
+}
+
+.item:hover {
+    box-shadow: 8px 8px 4px #D5D8DC;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 24px;
+    max-height: 24px;
+}
