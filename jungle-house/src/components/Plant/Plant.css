@@ -4,7 +4,6 @@
     border-radius: 8px;
     margin: 16px;
     padding: 8px;
-    width: fit-content;
     height: 250px;
 }
 
@@ -13,18 +12,33 @@
     cursor: pointer;
 }
 
-img {
+.img-plant {
     border-radius: 8px;
     width: 150px;
     height: 150px;
 }
 
-.info {
-    display: flex;
-    flex-wrap: wrap;
+.logo {
+    max-width: 28px;
+    max-height: 28px;
 }
 
-.logo {
-    max-width: 24px;
-    max-height: 24px;
+.name {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border: solid 1px lightgray;
+    background-color: white;
+    margin: 8px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price {
+    font-size: 32px;
+    margin: 0 0 8px 0;
 }

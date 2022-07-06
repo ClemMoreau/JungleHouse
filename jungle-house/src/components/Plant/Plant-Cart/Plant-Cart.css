@@ -1,0 +1,102 @@
+.item-cart {
+    border: #000000 solid 1px;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 8px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.item-cart:hover {
+    box-shadow: 8px 8px 4px #D5D8DC;
+    cursor: pointer;
+}
+
+.name-cart {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border: solid 1px lightgray;
+    background-color: white;
+    margin: 8px;
+}
+
+.img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+.info-cart {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.plant-info {
+    border: solid 1px lightgray;
+    background-color: white;
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.description {
+    margin: 8px;
+    padding: 8px;
+}
+
+.data {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.health {
+    float: right;
+    margin: 0 8px 8px 0;
+}
+
+.logo-cart {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.shop-info {
+    width: 40%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+
+.action button {
+    background-color: white;
+    border-radius: 16px;
+    width: 50px;
+    height: 50px;
+    flex-grow: 2;
+}
+
+.price-cart {
+    font-size: 42px;
+    margin: 0 0 32px 0;
+}
+
+.total-plant {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.amount {
+    margin: 8px 32px;
+    font-weight: bolder;
+}

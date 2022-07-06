@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    margin: 16px auto ;
+    width: fit-content;
+    border-radius: 64px;
+}
+
+.home img {
+    max-width: 500px;
+    max-height: 500px;
+    transition: 0,5s;
+}
+
+.prev, .next {
+    width: 100px;
+    font-size: 64px;
+    background: linear-gradient(45deg, #41f099, #138D75);
+    border: none;
+    color : white;
+}
+
+.prev:hover, .next:hover {
+    cursor: pointer
+}
+
+.home:hover {
+    box-shadow: 8px 8px 4px #D5D8DC;
+    cursor: pointer;
+}
+
+.prev {
+    border-radius: 64px 0 0 64px;
+}
+
+.next {
+    border-radius: 0 64px 64px 0;
+}

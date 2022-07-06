@@ -10,7 +10,7 @@ import cactus from '../assets/cactus.jpg'
 
 export const plantList = [
 	{
-		"name": "monstera",
+		"name": "Monstera",
 		"id": "1ed",
 		"light": 2,
 		"water": 3,
@@ -18,16 +18,15 @@ export const plantList = [
 		"price": 15
 	},
 	{
-		"name": "ficus lyrata",
+		"name": "Ficus Lyrata",
 		"id": "2ab",
 		"light": 3,
 		"water": 1,
 		"cover": lyrata,
 		"price": 16
 	},
-
 	{
-		"name": "pothos argenté",
+		"name": "Pothos Argenté",
 		"id": "3sd",
 		"light": 1,
 		"water": 2,
@@ -35,7 +34,7 @@ export const plantList = [
 		"price": 9
 	},
 	{
-		"name": "calathea",
+		"name": "Calathea",
 		"id": "4kk",
 		"light": 2,
 		"water": 3,
@@ -43,16 +42,15 @@ export const plantList = [
 		"price": 20
 	},
 	{
-		"name": "olivier",
+		"name": "Olivier",
 		"id": "5pl",
 		"light": 3,
 		"water": 1,
 		"cover": olivier,
 		"price": 25
 	},
-
 	{
-		"name": "cactus",
+		"name": "Cactus",
 		"id": "8fp",
 		"light": 2,
 		"water": 1,
@@ -60,7 +58,7 @@ export const plantList = [
 		"price": 6
 	},
 	{
-		"name": "basilique",
+		"name": "Basilique",
 		"id": "7ie",
 		"light": 2,
 		"water": 3,
@@ -68,16 +66,15 @@ export const plantList = [
 		"price": 5
 	},
 	{
-		"name": "succulente",
+		"name": "Succulente",
 		"id": "9vn",
 		"light": 2,
 		"water": 1,
 		"cover": succulent,
 		"price": 8
 	},
-
 	{
-		"name": "menthe",
+		"name": "Menthe",
 		"id": "6uo",
 		"light": 2,
 		"water": 2,

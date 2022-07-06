@@ -3,11 +3,11 @@ import { plantList } from "../../data/plantList";
 import Plant from "../Plant/Plant";
 import './Shop.css'
 
-function Shop() {
+function Shop({cart, updateCart}) {
 
     const [plants, setPlants] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const [cart, updateCart] = useState([]);
+    
     const total = cart.reduce(
         (prevTotal, item) => prevTotal + (item.amount * item.price),
         0
@@ -46,10 +46,10 @@ function Shop() {
     }, []);
 
     return ( 
-    <div className="content">
+    <div className="shop">
         <div className="sort-bar">
 
-            <label htmlFor="price">Select the minimum price : <br/>(0-100$)</label>
+            <label htmlFor="price">Select the maximum price : <br/>(0-100$)</label>
             <input name="price" type="range" min='0' max='50' list='tickmarks' onChange={(event) => handleChange(event.target.value)}/>
             <datalist id="tickmarks">
                 <option value="0" label="0$"/>
